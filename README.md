@@ -1,7 +1,8 @@
 # Bet365_vs_Pinnacle
-[![Codecov test
-coverage](https://github.com/talent330/bet365_vs_pinnacle/blob/master/2.PNG)]
 This is a tool which gets high values on bet365 based on Pinnacle. Focus on value betting on soccer of sports bettings
+
+![Codecov test
+coverage](https://github.com/talent330/bet365_vs_pinnacle/blob/master/2.PNG)
 
 <b>Requirements:</b>
 * bet365 and pinnacle apis from https://rapidapi.com
