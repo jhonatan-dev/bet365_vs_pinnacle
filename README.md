@@ -1,4 +1,4 @@
-# Bet365-Scraper
+# Bet365_vs_Pinnacle
 This is a tool which gets high values on bet365 based on Pinnacle. Focus on value betting on soccer of sports bettings
 
 <b>Requirements:</b>
