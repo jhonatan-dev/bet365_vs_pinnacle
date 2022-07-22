@@ -1,6 +1,6 @@
-# Bet365_vs_Pinnacle  ![R-CMD-check](https://github.com/talent330/bet365_vs_pinnacle/blob/master/download.jpg)]
+# Bet365_vs_Pinnacle
 <!-- badges: start -->
-
+![R-CMD-check](https://github.com/talent330/bet365_vs_pinnacle/blob/master/download.jpg)
 
 <!-- badges: end -->
 
