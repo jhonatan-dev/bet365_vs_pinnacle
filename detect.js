@@ -15,7 +15,15 @@ function detectHighValues(gain, bObj, pinnObj, seekArr, path) {
         var areObjects = isObject(bVal) && isObject(pinnVal);
 
         if(areObjects) {
-            detectHighValues(gain, bVal, pinnVal, seekArr, path +  ' -> '+ keysBObj[i]);
+            var pTxt = keysBObj[i];
+            if(keysBObj[i] == "num_0") {
+                pTxt = "fulltime";
+            } else if(keysBObj[i] == "num_1") {
+                pTxt = "1sthalf";
+            }
+
+
+            detectHighValues(gain, bVal, pinnVal, seekArr, path +  ' -> '+ pTxt);
         } else if(bVal >1 && pinnVal >1 && bVal >= pinnVal * gain){ // set high volumes
             var obj = {};
             obj[keysBObj[i]] = bObj[keysBObj[i]];
